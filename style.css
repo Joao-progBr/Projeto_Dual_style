@@ -1,0 +1,151 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+.font-title{
+    font-family: "Playfair Display", serif;
+}
+
+.fonts{
+    font-family: "Roboto", sans-serif;
+}
+
+/* .text-color{
+    color: #E2C275;
+    #1f4037
+} */
+
+.alert{
+    display: none;
+}
+
+.navbar,
+footer{
+    background-color: #1f4037;
+}
+
+#cabecalho .nav .nav-link.active
+{
+    color: #fff;
+    background-color: #E2C275;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+#cabecalho .nav .nav-link,
+footer{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #E2C275;
+}
+
+.carousel-item img{
+    height: 1200px;
+    
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, .5);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#sobre-a-loja,
+#contato{
+    background-color:  #F1F1F1;
+}
+
+.nav-produtos .nav-link.active{
+    background-color: #E2C275;
+    color: #fff;
+}
+
+.nav-produtos button,
+.btn-duvida{
+    background-color: #E2C275;
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover,
+.btn-duvida:hover{
+    color: #fff;
+    background-color: #E2C275;
+}
+
+.tab-pane{
+    text-align: center;
+}
+.tab-pane .btn{
+    background-color: #E2C275;
+    color: #fff;
+}
+
+.tab-pane .btn:hover{
+    width: 100%;
+    color: #1f4037;
+    transition: all ease-in-out 0.1s;
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .container{
+        width: 90%;
+    }
+
+    .carousel-item img{
+        height: 300px;
+    }
+
+    #sobre-a-loja img,
+    #sobre-a-loja h2{
+        margin-bottom: 18px;
+    }
+
+    .tab-pane div{
+        margin-top: 18px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    
+    .container{
+        width: 90%;
+    }
+
+    .carousel-item img{
+        height: 400px;
+    }
+
+    #sobre-a-loja img,
+    #sobre-a-loja h2{
+        margin-bottom: 18px;
+    }
+
+    .tab-pane div{
+        margin-top: 18px;
+    }
+
+}
+

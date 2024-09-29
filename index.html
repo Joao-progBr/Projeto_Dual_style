@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Dual Style</title>
+</head>
+<body>
+    
+    
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container" id="inicio">
+            <h1 class="navbar-brand fw-bold m-0 fs-3 font-title">
+                <i class="bi bi-hash"></i>
+                Dual Style
+                <i class="bi bi-hash"></i>
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end mt-3 mt-lg-0" id="menu-nav">
+                <ul class="nav nav-pills d-block d-lg-flex fonts">
+                    <li class="fw-bold nav-item">
+                        <a class="nav-link active" href="#inicio">
+                            <i class="bi bi-house-door me-1"></i>
+                            Início
+                        </a>
+                    </li>
+                    <li class="fw-bold nav-item ">
+                        <a class="nav-link " href="#sobre-a-loja">
+                            <i class="me-1 bi bi-buildings"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="fw-bold nav-item ">
+                        <a class="nav-link " href="#produtos">
+                            <i class="me-1 bi bi-bag"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="fw-bold nav-item ">
+                        <a class="nav-link " href="#contato">
+                            <i class="me-1 bi bi-chat-left-text"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="inicio">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner" >
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/carrossel/adult-1867489_1920.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/carrossel/fashion-1866921_1920.jpg" class="w-100 " alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/carrossel/hands-1866619_1920.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/carrossel/people-2590092_1920.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/carrossel/wedding-1594957_1920.jpg" class="w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/carrossel/woman-518275_1920.jpg" class="w-100" alt="">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-a-loja">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5">
+                            <img src="./images/sobre-a-loja/evening-4579176_1920.jpg" class="w-100 d-block rounded" alt="loja">
+                        </div>
+                        <div class="col-md-12 col-lg-7">
+                            <h2 class="font-title">
+                                <i class="me-1 bi bi-buildings"></i>
+                                Sobre a loja
+                            </h2>
+                            <p class=" fonts">
+                                A Dual Style é uma loja especializada em acessórios 
+                                masculinos e femininos, oferecendo peças elegantes e 
+                                versáteis que combinam estilo e personalidade. 
+                                Nossa curadoria traz produtos que vão desde o moderno
+                                até o clássico, ideais para complementar qualquer visual.
+                                Valorizamos a qualidade e o atendimento personalizado, 
+                                tornando sua experiência de compra única. Descubra como 
+                                pequenos detalhes podem transformar seu estilo!
+                            </p>
+                            <h3 class="font-title">
+                                <i class="bi bi-geo-fill"></i>
+                                Onde nos encontrar
+                            </h3>
+                            <address>
+                                <a href="#" class="btn fonts">
+                                    Rua das Flores, 123 - Bairro Jardim Elegante, São Paulo, SP - CEP: 01234-567
+                                </a>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="font-title text-center mb-5">Produtos</h2>
+                        <div class="row"> 
+                            <nav class="nav nav-pills justify-content-center nav-produtos mb-3">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#masculino" class="nav-link fw-bold active me-3 fonts">Masculino</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#feminino" class="nav-link fw-bold fonts">Feminino</button>
+                            </nav>
+                        </div>
+                        <div class="tab-content" >
+                            <div class="tab-pane show active" id="masculino">
+                               <div class="row">
+                                    <div class="col-md-6 col-lg-3">
+                                        <img src="./images/produtos/1220617a9d.webp" class="w-100" alt="">
+                                        <h5 class="mt-3 font-title fw-bold">Colar de prata com pingente</h5>
+                                        <strong class="d-block mb-2">R$150,00</strong>
+                                        <button type="button" class="btn fonts">Mais detalhes</button>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <img src="./images/produtos/76c371d8-e40a-4692-8329-a1c00cfaa2b41-7994f405c9326dcfea16599839742111-1024-1024.jpeg" class="w-100" alt="">
+                                        <h5 class="mt-3 font-title fw-bold">Pulseira de prata</h5>
+                                        <strong class="d-block mb-2">R$200,00</strong>
+                                        <button type="button" class="btn fonts">Mais detalhes</button>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <img src="./images/produtos/clock-3350289_1280.jpg" class="w-100" alt="">
+                                        <h5 class="mt-3 font-title fw-bold">Relogio banhado a ouro</h5>
+                                        <strong class="d-block mb-2">R$650,00</strong>
+                                        <button type="button" class="btn fonts">Mais detalhes</button>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <img src="./images/produtos/img-20220707-wa02811-71e3ba307a740e5f6616770152613789-640-01-dd9018b31add1a498016778543539951-640-0.jpg" class="w-100" alt="">
+                                        <h5 class="mt-4 font-title fw-bold">Anel de prata Salmos 91</h5>
+                                        <strong class="d-block mb-2">R$80,00</strong>
+                                        <button type="button" class="btn fonts">Mais detalhes</button>
+                                    </div>
+                               </div>
+                            </div>
+                            <div class="tab-pane fade" id="feminino">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/produtos/bracelet-3977491_1280.jpg" class="w-100" alt="">
+                                        <h5 class="mt-3 font-title fw-bold">Pulseira borboleta</h5>
+                                        <strong class="d-block mb-2">R$150,00</strong>
+                                        <button type="button" class="btn fonts">Mais detalhes</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/produtos/watch-140578_1280.jpg" class="w-100" alt="">
+                                        <h5 class="mt-3 font-title fw-bold">Pandora com pingentes de ouro</h5>
+                                        <strong class="d-block mb-2">R$700,00</strong>
+                                        <button type="button" class="btn fonts">Mais detalhes</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/produtos/druzy-665485_1280.jpg" class="w-100" alt="">
+                                        <h5 class="mt-3 font-title fw-bold">Colar com pedras de quartzo</h5>
+                                        <strong class="d-block mb-2">R$150,00</strong>
+                                        <button type="button" class="btn fonts">Mais detalhes</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/produtos/jewelry-625725_1280.jpg" class="w-100" alt="">
+                                        <h5 class="mt-4 font-title fw-bold">Colar de ouro trevo de 4 folhas</h5>
+                                        <strong class="d-block mb-2">R$180,00</strong>
+                                        <button type="button" class="btn fonts">Mais detalhes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <h2 class="font-title mb-5">Contato</h2>
+                </div>
+                <div class="alert alert-dismissible">
+                    <button class="btn-close" data-bs-dismiss="alert"></button>
+                    Preencha os campos obrigatórios
+                </div>
+                <div class="row">
+                    <div class="col-md-7 ">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold fonts">Nome:</label>
+                                <input type="text" id="nome" class="form-control fonts" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold fonts">E-mail:</label>
+                                <input type="email" id="email" class="form-control fonts" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold fonts">Telefone:</label>
+                                <input type="tel" id="telefone" class="form-control fonts" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold fonts">Sua duvida:</label>
+                                <textarea id="mensagem" class="form-control fonts"></textarea>
+                            </div>
+                           <button type="submit" class="btn fw-bold fonts btn-duvida">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-sm-9">
+                        <h2 class="fw-bold m-0 fs-3 font-title ">
+                            <i class="bi bi-hash"></i>
+                            Dual Style
+                            <i class="bi bi-hash"></i>
+                        </h2>
+                    </div>
+                    <div class="col-md-2 col-sm-3">
+                        <p>&copy 2024</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./plugins/jquery.mask.min.js"></script>
+    <script src="./plugins/jquery.validate.min.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
